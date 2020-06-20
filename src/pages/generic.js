@@ -15,12 +15,12 @@ const Generic = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Generic</h1>
+                        <h1>About Kyle</h1>
                     </header>
                     <span className="image main"><img src={pic11} alt="" /></span>
-                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+                    <p>After college, I struggled with underemployment. Even with a fancy degree from a fancy school, I lived with my parents for several years after graduation. Florida has one of the highest percentages of young people living with their parents. With low wages, few good-paying jobs compared to many other states, and ever increasing housing costs, Florida can be a brutal place to make a living. Many Floridians are struggling. That radicalized me to the right and inspired me to get involved in libertarian politics.</p>
+                    <p>I have played violin for 20 years, including through most of grade school and college. Before moving to Illinois for college, I played with the All-County and All-State Orchestras every year, as well as with the Florida Symphony Youth Orchestra. I particularly enjoy classical music from the 20th and 21st centuries, and love to perform and see live performances of that music whenever I can. As a teacher I help my students to grow every day and discover the rich tradition of western classical music.</p>
+                    <p>I am also a self-taught web developer.</p>
                 </div>
             </section>
         </div>

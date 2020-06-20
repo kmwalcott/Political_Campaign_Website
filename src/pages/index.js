@@ -1,12 +1,12 @@
 import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import books from '../assets/images/kimberly-farmer-books.jpg'
+import college from '../assets/images/college.jpg'
+import marijuana from '../assets/images/matthew-brodeur-marijuana.jpg'
+import healthcare from '../assets/images/healthcare.jpg'
+import housing from '../assets/images/housing.jpg'
+import donald_trump from '../assets/images/donald-trump.jpg' 
 import Banner from '../components/Banner'
 import Layout from '../components/layout'
 
@@ -15,9 +15,9 @@ class HomeIndex extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="Gatsby Starter - Forty"
+          title="Kyle Walcott for Florida House"
           meta={[
-            { name: 'description', content: 'Sample' },
+            { name: 'description', content: 'Elect Kyle Walcott to the Florida House of Representatives!' },
             { name: 'keywords', content: 'sample, something' },
           ]}
         ></Helmet>
@@ -26,106 +26,80 @@ class HomeIndex extends React.Component {
 
         <div id="main">
           <section id="one" className="tiles">
-            <article style={{ backgroundImage: `url(${pic01})` }}>
+            <article style={{ backgroundImage: `url(${books})` }}>
               <Link
                 aria-label="Link to Landing Page"
                 to="/landing"
                 className="link primary"
               >
                 <header className="major">
-                  <h3>Aliquam</h3>
-                  <p>Ipsum dolor sit amet</p>
+                  <h3>K-12 Education</h3>
+                  <p>Privatizing public schools and ending compulsory schooling</p>
                 </header>
               </Link>
             </article>
-            <article style={{ backgroundImage: `url(${pic02})` }}>
+            <article style={{ backgroundImage: `url(${college})` }}>
               <Link
                 aria-label="Link to Landing Page"
                 to="/landing"
                 className="link primary"
               >
                 <header className="major">
-                  <h3>Tempus</h3>
-                  <p>feugiat amet tempus</p>
+                  <h3>Postsecondary Education</h3>
+                  <p>Rejecting the "college for all" agenda</p>
                 </header>
               </Link>
             </article>
-            <article style={{ backgroundImage: `url(${pic03})` }}>
+            <article style={{ backgroundImage: `url(${marijuana})` }}>
               <Link
                 aria-label="Link to Landing Page"
                 to="/landing"
                 className="link primary"
               >
                 <header className="major">
-                  <h3>Magna</h3>
-                  <p>Lorem etiam nullam</p>
+                  <h3>Victimless Crimes</h3>
+                  <p>Legalizing recreational marijuana and prostitution</p>
                 </header>
               </Link>
             </article>
-            <article style={{ backgroundImage: `url(${pic04})` }}>
+            <article style={{ backgroundImage: `url(${healthcare})` }}>
               <Link
                 aria-label="Link to Landing Page"
                 to="/landing"
                 className="link primary"
               >
                 <header className="major">
-                  <h3>Ipsum</h3>
-                  <p>Nisl sed aliquam</p>
+                  <h3>Healthcare</h3>
+                  <p>Licensing reform and deregulation</p>
                 </header>
               </Link>
             </article>
-            <article style={{ backgroundImage: `url(${pic05})` }}>
+            <article style={{ backgroundImage: `url(${housing})` }}>
               <Link
                 aria-label="Link to Landing Page"
                 to="/landing"
                 className="link primary"
               >
                 <header className="major">
-                  <h3>Consequat</h3>
-                  <p>Ipsum dolor sit amet</p>
+                  <h3>Affordable Housing</h3>
+                  <p>Allowing developers to build much-needed housing for Floridians with lower incomes</p>
                 </header>
               </Link>
             </article>
-            <article style={{ backgroundImage: `url(${pic06})` }}>
+            <article style={{ backgroundImage: `url(${donald_trump})` }}>
               <Link
                 aria-label="Link to Landing Page"
                 to="/landing"
                 className="link primary"
               >
                 <header className="major">
-                  <h3>Etiam</h3>
-                  <p>Feugiat amet tempus</p>
+                  <h3>Statement on President Donald Trump</h3>
+                  <p>I am not a supporter.</p>
                 </header>
               </Link>
             </article>
           </section>
-          <section id="two">
-            <div className="inner">
-              <header className="major">
-                <h2>Massa libero</h2>
-              </header>
-              <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-                Pellentesque condimentum sem. In efficitur ligula tate urna.
-                Maecenas laoreet massa vel lacinia pellentesque lorem ipsum
-                dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et
-                sagittis libero. Mauris aliquet magna magna sed nunc rhoncus
-                amet pharetra et feugiat tempus.
-              </p>
-              <ul className="actions">
-                <li>
-                  <Link
-                    aria-label="Link to Landing Page"
-                    to="/landing"
-                    className="button next"
-                  >
-                    Get Started
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </section>
+          
         </div>
       </Layout>
     )

@@ -2,9 +2,9 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Theme - Forty',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js Theme based on Forty by HTML5 UP',
+    title: 'Kyle Walcott for Florida House',
+    author: 'Kyle Walcott',
+    description: 'Elect Kyle Walcott to the Florida House of Representatives!',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
